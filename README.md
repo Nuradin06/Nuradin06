@@ -37,3 +37,4 @@
 - 💬 Ask me about programming, web, and mobile development.
 - 🌐 [GitHub](https://github.com/Nuradin06)
 - ✉️ Email: cnuradin91@gmail.com
+- LinkedIn: (https://www.linkedin.com/in/nuradin-ibrahim-cabdi-500bba386/)
