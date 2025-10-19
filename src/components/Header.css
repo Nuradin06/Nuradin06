@@ -1,0 +1,14 @@
+.nav-button {
+  background: none;
+  border: none;
+  color: white;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.nav-button:hover {
+  transform: translateY(-5px); /* flotte vers le haut */
+  color: #38ada9; /* change légèrement la couleur pour accentuer l’effet */
+}
