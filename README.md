@@ -35,5 +35,5 @@
 
 ### Let’s Connect!
 - 💬 Ask me about programming, web, and mobile development.
-- 🌐 [GitHub](https://github.com/jojonono)
-- ✉️ Email: ton.email@example.com
+- 🌐 [GitHub](https://github.com/Nuradin06)
+- ✉️ Email: cnuradin91@gmail.com
