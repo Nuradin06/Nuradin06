@@ -53,7 +53,7 @@ function Projects() {
         fontFamily: "Verdana, Geneva, Tahoma, sans-serif"
       }}
     >
-      <h2 style={{ marginBottom: "40px" }}>Mes projets</h2>
+      <h2 style={{ marginBottom: "40px" }}>Certains de mes projets</h2>
       <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
         {projets.map((proj) => (
           <Link
