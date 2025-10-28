@@ -4,10 +4,17 @@ import { Link } from "react-router-dom";
 function Projects() {
   const projets = [
     {
+      id: 0,
+      titre: "Gestion critiques de films",
+      tech: "Python, Flask, Bootstrap",
+      image: "/images/Python.png",
+      description: "Plateforme Web pour consulter et publier des critiques de films, avec système d’authentification, profils utilisateurs et réinitialisation de mot de passe."
+    },
+    {
       id: 1,
       titre: "Médiathèque en Java",
       tech: "Java",
-      image: "/images/Mediatheque.png" // chemin relatif depuis public/
+      image: "/images/Mediatheque.png"
     },
     {
       id: 2,
@@ -20,7 +27,6 @@ function Projects() {
       titre: "PopBazar - Plateforme de petites annonces",
       tech: "PHP, MySQL, MVC",
       image: "/images/z.png"
-
     },
     {
       id: 4,
@@ -87,6 +93,7 @@ function Projects() {
             <div>
               <h3>{proj.titre}</h3>
               <p style={{ marginTop: "8px", color: "#3498db" }}>{proj.tech}</p>
+              {proj.description && <p style={{ marginTop: "5px", color: "#ccc", fontSize: "14px" }}>{proj.description}</p>}
             </div>
           </Link>
         ))}

@@ -6,6 +6,18 @@ function ProjectDetail() {
 
   const projets = [
     {
+      id: 0,
+      titre: "Gestion critiques de films",
+      details: `Plateforme Web pour consulter et publier des critiques de films (Python/Flask, Bootstrap).
+Fonctionnalités :
+- Authentification complète des utilisateurs
+- Page de profil pour chaque utilisateur
+- Création et consultation des publications
+- Pagination pour les listes de critiques
+- Réinitialisation du mot de passe
+- Intégration du CSS Bootstrap pour une interface moderne`
+    },
+    {
       id: 1,
       titre: "Médiathèque en Java",
       details: `Système de gestion de documents (livres, périodiques, DVD) en Java orienté objet (Automne 2024).

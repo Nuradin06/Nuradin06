@@ -114,3 +114,36 @@ section {
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
+/* Effet de brouillard animé sur toute la page */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0) 70%);
+  opacity: 0.2; /* intensité du brouillard */
+  z-index: 0;
+  pointer-events: none; /* pour ne pas bloquer les clics */
+  animation: fogMove 60s linear infinite;
+}
+
+/* Animation lente pour donner l'impression que le brouillard bouge */
+@keyframes fogMove {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  50% {
+    transform: translate(0%, 0%);
+  }
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
+
+/* S'assurer que le contenu est au-dessus du brouillard */
+body > * {
+  position: relative;
+  z-index: 1;
+}
